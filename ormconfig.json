@@ -1,0 +1,12 @@
+{
+  "type": "mysql",
+  "host": "localhost",
+  "port": 3307,
+  "username": "root",
+  "password": "toor",
+  "database": "blog",
+  "entities": [
+    "src/entities/*.ts"   
+  ],
+  "synchronize": true
+}
